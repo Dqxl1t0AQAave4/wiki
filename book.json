@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "image-captions", "collapsible-menu"
+    ],
+    "pluginsConfig": {
+        "image-captions": {
+            "caption": "Рис._PAGE_LEVEL_._PAGE_IMAGE_NUMBER_. _CAPTION_",
+            "align": "left",
+            "attributes": { "width": "600" }
+        }
+    }
+}
