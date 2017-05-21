@@ -21,9 +21,14 @@
 
 * [ПИД-регулятор](theory/pid-controller.md)
 
+## Написание кода
+
+* [Работа с `COM`-портом](code/com-port.md)
+
 ## Программные инструменты
 
 * [Git](apps/git.md)
+* [`IAR Embedded Workbench`](apps/iar-ew.md)
 
 ---
 
