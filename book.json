@@ -5,8 +5,7 @@
     "pluginsConfig": {
         "image-captions": {
             "caption": "Рис._PAGE_IMAGE_NUMBER_. _CAPTION_",
-            "align": "left",
-            "attributes": { "width": "800" }
+            "align": "left"
         }
     }
 }
