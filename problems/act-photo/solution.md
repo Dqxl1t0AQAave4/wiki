@@ -183,7 +183,37 @@ void main()
 }
 ```
 
+Функцию `process_input()` можно схематично представить так:
 
+```c
+bool has_command = false;
+byte method, variable;
+
+void process_input()
+{
+    if (has_command) 
+    {
+        byte byte;
+        switch(method)
+        {
+            case ECHO:
+                if (!receive(&byte)) return;
+                send(byte);
+                break;
+            case GET:
+                // TODO: body here
+                break;
+            case SET:
+                // TODO: body here
+                break;
+        }
+        has_command = false;
+        return;
+    }
+    has_command = receive_byte(&method);
+}
+has_command = receive_byte(method);
+```
 
 
 
