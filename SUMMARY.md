@@ -8,7 +8,7 @@
     * [Постановка](problems/act-photo/problem.md#регулятор-освещенности)
     * [Решение](problems/act-photo/solution.md)
         * [Выходной каскад](problems/act-photo/solution.md#выходной-каскад)
-        * [Входные каскады](problems/act-photo/solution.md#выходные-каскады)
+        * [Входные каскады](problems/act-photo/solution.md#входные-каскады)
         * [Производство печатной платы](problems/act-photo/solution.md#производство-печатной-платы)
         * [Код](problems/act-photo/solution.md#код)
         * [Итог](problems/act-photo/solution.md#итог)
@@ -52,8 +52,8 @@
     * [Включаемые файлы](apps/iar-ew.md#включаемые-файлы)
     * [Хранение переменных в разных типах памяти](apps/iar-ew.md#хранение-переменных-в-разных-типах-памяти)
     * [Работа с прерываниями](apps/iar-ew.md#работа-с-прерываниями)
-    * [Установка `IAR EW IDE`](apps/iar-ew.md#установка-IAR-EW-IDE)
-    * [Настройка `IAR EW IDE`](apps/iar-ew.md#настройка-EWAVR-для-работы-с-ATmega8A)
+    * [Установка `IAR EW IDE`](apps/iar-ew.md#установка-iar-ew-ide)
+    * [Настройка `IAR EW IDE`](apps/iar-ew.md#настройка-ewavr-для-работы-с-atmega8a)
 
 ---
 
