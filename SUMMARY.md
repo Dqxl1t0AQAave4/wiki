@@ -5,7 +5,7 @@
 ## Задачи
 
 * [Регулятор освещенности](problems/act-photo/problem.md)
-    * [Постановка](problems/act-photo/problem.md)
+    * [Постановка](problems/act-photo/problem.md#регулятор-освещенности)
     * [Решение](problems/act-photo/solution.md)
 
 ## Цифровые устройства
