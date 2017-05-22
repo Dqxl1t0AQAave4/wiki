@@ -6,6 +6,9 @@
         "image-captions": {
             "caption": "Рис._PAGE_IMAGE_NUMBER_. _CAPTION_",
             "align": "left"
+        },
+        "mathjax": {
+            "forceSVG": true
         }
     }
 }
