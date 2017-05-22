@@ -9,6 +9,9 @@
         },
         "mathjax": {
             "forceSVG": true
+        },
+        "anchorjs": {
+          "placement": "left"
         }
     }
 }
