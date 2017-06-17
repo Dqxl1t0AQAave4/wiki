@@ -235,7 +235,7 @@ git add .gitmodules lib/git
 git commit -m "New submodule added and its state fetched"
 ```
 
-### Выкачивание изменений из подмодуля
+### Выкачивание изменений подмодуля
 
 Для выкачивания изменений следует выполнить уже известный `git submodule update --remote` и зафиксировать изменения в `lib/git` командами:
 
