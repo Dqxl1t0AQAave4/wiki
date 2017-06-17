@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "image-captions", "mathjax", "anchorjs"
+        "image-captions", "mathjax", "anchorjs", "collapsible-menu"
     ],
     "pluginsConfig": {
         "image-captions": {
