@@ -5,7 +5,7 @@
 ## Кодовая база
 
 * [`act-common`](codebase/act-common.md)
-    * [`src-logging`](codebase/act-common.md#act-common-src-logging)
+    * [`src-logger`](codebase/act-common.md#act-common-src-logger)
     * [`src-com-port`](codebase/act-common.md#act-common-src-com-port)
     * [`mc-common`](codebase/act-common.md#act-common-mc-common)
 * [`act-photo`](codebase/act-photo.md)
