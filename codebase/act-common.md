@@ -77,6 +77,7 @@ r.join(); // фактическое ожидание остановки
 ```
 
 ![](https://assets-cdn.github.com/favicon.ico) [Репозиторий](https://github.com/Dqxl1t0AQAave4/act-common-src-com-port)
+
 ![](https://assets-cdn.github.com/favicon.ico) [Примеры](https://github.com/Dqxl1t0AQAave4/act-common-src-com-port/tree/develop/src/example)
 
 ## `act-common-mc-common`
