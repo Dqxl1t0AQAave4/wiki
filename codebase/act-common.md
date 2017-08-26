@@ -75,3 +75,12 @@ std::list<reactor_t::ipacket_t> packets;
 r.stop();
 r.join(); // фактическое ожидание остановки
 ```
+
+![](https://assets-cdn.github.com/favicon.ico) [Репозиторий](https://github.com/Dqxl1t0AQAave4/act-common-src-com-port)
+![](https://assets-cdn.github.com/favicon.ico) [Примеры](https://github.com/Dqxl1t0AQAave4/act-common-src-com-port/tree/develop/src/example)
+
+## `act-common-mc-common`
+
+В основном содержит определения для упрощения ввода-вывода со стороны микроконтролера.
+
+Реализует кольцевые буферы на статических массивах. Предоставляет два варианта статических массивов (со статическим и динамическим размером). Позволяет использовать блокировки в стиле C++0x.
