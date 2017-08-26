@@ -26,3 +26,52 @@
 Реактор полностью конфигурируем "на лету". В случае неисправности COM-порта ожидает установки корректного COM-порта.
 
 Двустроннее преобразование "объект пакета"-"байты" осуществляет т.н. "диалект".
+
+Описание типов приводится в `README` репозитория. Примеры расположены внутри репозитория под директорией `examples`.
+
+#### Некоторые примеры
+
+Создание и открытие COM-порта:
+
+```cpp
+com_port port;
+port.open(com_port_options("COM3", CBR_4800, 8, true, ODDPARITY, ONESTOPBIT));
+
+if (!port.open()) { /* log error message */ }
+```
+
+Создание и конфигурирование реактора (`custom_dialect` -- некоторый реализованный диалект -- наследник `dialect < ipacket_t, opacket_t >`):
+
+```cpp
+reactor < custom_dialect > r;
+r.start();
+
+r.supply_port(std::move(port));
+```
+
+Отправка пакетов данных (в предположении, что `custom_dialect` -- наследник `dialect < unsigned char, unsigned char >`):
+
+```cpp
+r.supply_opacket(unsigned char(56));
+r.supply_opacket(unsigned char(57));
+r.supply_opacket(unsigned char(58));
+```
+
+Прием пакетов данных (в том же предположении):
+
+```cpp
+std::list<reactor_t::ipacket_t> packets;
+{
+    // обязательно защитить чтение блокировкой!
+    reactor_t::guard_t guard(r.iqueue_mutex);
+    // обязательно очистить очередь пакетов!
+    packets.splice(packets.end(), r.iqueue);
+}
+```
+
+Остановка реактора:
+
+```cpp
+r.stop();
+r.join(); // фактическое ожидание остановки
+```
