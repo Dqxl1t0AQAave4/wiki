@@ -60,7 +60,7 @@ r.supply_opacket(unsigned char(58));
 Прием пакетов данных (в том же предположении):
 
 ```cpp
-std::list<reactor_t::ipacket_t> packets;
+std::list<unsigned char> packets;
 {
     // обязательно защитить чтение блокировкой!
     reactor_t::guard_t guard(r.iqueue_mutex);
