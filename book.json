@@ -1,11 +1,23 @@
 {
     "plugins": [
-        "image-captions", "mathjax", "anchorjs", "-sharing"
+        "image-captions", "mathjax", "anchorjs", "sharing"
     ],
     "pluginsConfig": {
         "image-captions": {
             "caption": "Рис._PAGE_IMAGE_NUMBER_. _CAPTION_",
-            "align": "left"
+            "align": "left",
+            "sharing": {
+                "facebook": true,
+                "twitter": true,
+                "google": false,
+                "weibo": false,
+                "instapaper": false,
+                "vk": true,
+                "all": [
+                    "vk", "facebook", "google", "twitter",
+                    "weibo", "instapaper"
+                ]
+        }
         },
         "mathjax": {
             "forceSVG": true
