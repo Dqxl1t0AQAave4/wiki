@@ -2,6 +2,14 @@
 
 * [Введение](README.md)
 
+## Кодовая база
+
+* [`act-common`](codebase/act-common.md)
+    * [`src-logging`](codebase/act-common.md#act-common-src-logging)
+    * [`src-com-port`](codebase/act-common.md#act-common-src-com-port)
+    * [`mc-common`](codebase/act-common.md#act-common-mc-common)
+* [`act-photo`](codebase/act-photo.md)
+
 ## Задачи
 
 * [Регулятор освещенности](problems/act-photo/problem.md)
