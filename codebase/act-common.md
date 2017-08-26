@@ -16,3 +16,7 @@
 Подробная инструкция по установке и настройке представлена находится в репозитории.
 
 ![](https://assets-cdn.github.com/favicon.ico) [Репозиторий](https://github.com/Dqxl1t0AQAave4/act-common-src-logger)
+
+## `act-common-src-com-port`
+
+Обертка над `WinAPI` по части работы с COM-портом и 
