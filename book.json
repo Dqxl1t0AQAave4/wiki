@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "image-captions", "mathjax-update-cdn", "anchorjs", "sharing"
+        "image-captions", "anchorjs", "sharing"
     ],
     "pluginsConfig": {
         "image-captions": {
