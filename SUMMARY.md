@@ -21,6 +21,7 @@
         * [Код](problems/act-photo/solution.md#код)
         * [Итог](problems/act-photo/solution.md#итог)
         * [Замечания](problems/act-photo/solution.md#замечания)
+* [Интерфейсы](problems/interfaces/problem.md)
 
 
 ## Цифровые устройства
